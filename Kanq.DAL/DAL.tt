@@ -1,0 +1,16 @@
+﻿<#@include file="$(SolutionDir)\Reference.ttinclude" #>
+using Kanq.IDAL;
+using Kanq.Model;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Linq.Expressions;
+
+namespace Kanq.DAL
+{
+<#    foreach(string modelName in modelList){ #>
+    public partial class <#=modelName#>Dal :BaseDal<<#=modelName#>>, I<#=modelName#>Dal{}
+<#    } #>
+}

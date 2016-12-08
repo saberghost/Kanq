@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+    <object name="D_RECDal" type="Kanq.DAL.D_RECDal, Kanq.DAL" singleton="false" />
+    <object name="OA2_FINSTDal" type="Kanq.DAL.OA2_FINSTDal, Kanq.DAL" singleton="false" />
+    <object name="TBL_GZMXBDal" type="Kanq.DAL.TBL_GZMXBDal, Kanq.DAL" singleton="false" />
+    <object name="TBL_GZMXB_LOGDal" type="Kanq.DAL.TBL_GZMXB_LOGDal, Kanq.DAL" singleton="false" />
+    <object name="TBL_GZMXB_TJDal" type="Kanq.DAL.TBL_GZMXB_TJDal, Kanq.DAL" singleton="false" />
+    <object name="TBL_HBGYTDSYQ_QBSPDDal" type="Kanq.DAL.TBL_HBGYTDSYQ_QBSPDDal, Kanq.DAL" singleton="false" />
+    <object name="TBL_HBGYTDSYQ_QBSPD_ZBDal" type="Kanq.DAL.TBL_HBGYTDSYQ_QBSPD_ZBDal, Kanq.DAL" singleton="false" />
+    <object name="TBL_JSYDBP_BCGDDJK_DETAILDal" type="Kanq.DAL.TBL_JSYDBP_BCGDDJK_DETAILDal, Kanq.DAL" singleton="false" />
+    <object name="TBL_JSYDBP_BCGDDJK_ZB1Dal" type="Kanq.DAL.TBL_JSYDBP_BCGDDJK_ZB1Dal, Kanq.DAL" singleton="false" />
+    <object name="TBL_JSYDBP_BCGDDJK_ZB2Dal" type="Kanq.DAL.TBL_JSYDBP_BCGDDJK_ZB2Dal, Kanq.DAL" singleton="false" />
+    <object name="TBL_SJSLDDal" type="Kanq.DAL.TBL_SJSLDDal, Kanq.DAL" singleton="false" />
+    <object name="TBL_TDFHDJ_BPPDDal" type="Kanq.DAL.TBL_TDFHDJ_BPPDDal, Kanq.DAL" singleton="false" />
+    <object name="TBL_TDGY_HBJDSDal" type="Kanq.DAL.TBL_TDGY_HBJDSDal, Kanq.DAL" singleton="false" />
+    <object name="TBL_TDTJBG_HTJBXXDal" type="Kanq.DAL.TBL_TDTJBG_HTJBXXDal, Kanq.DAL" singleton="false" />
+</objects>

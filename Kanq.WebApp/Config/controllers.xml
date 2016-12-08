@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+  <object type="Kanq.WebApp.Controllers.BCGDDJKController, Kanq.WebApp" singleton="false" >
+    <property name="ZB1Service" ref="TBL_JSYDBP_BCGDDJK_ZB1Service" />
+    <property name="ZB2Service" ref="TBL_JSYDBP_BCGDDJK_ZB2Service" />
+  </object>
+
+  <object type="Kanq.WebApp.Controllers.ZBPHController, Kanq.WebApp" singleton="false" >
+    <property name="ZB2Service" ref="TBL_JSYDBP_BCGDDJK_ZB2Service" />
+    <property name="DETAILService" ref="TBL_JSYDBP_BCGDDJK_DETAILService" />
+  </object>
+
+  <object type="Kanq.WebApp.Controllers.FwcqBcHzbController, Kanq.WebApp" singleton="false" >
+    <property name="FwcqHzService" ref="FwcqHzService" />
+  </object>
+
+  <object type="Kanq.WebApp.Controllers.YGDBPXMController, Kanq.WebApp" singleton="false" >
+    <property name="D_RECService" ref="D_RECService" />
+    <property name="TBL_TDGY_HBJDSService" ref="TBL_TDGY_HBJDSService" />
+    <property name="TBL_TDTJBG_HTJBXXService" ref="TBL_TDTJBG_HTJBXXService" />
+    <property name="TBL_HBGYTDSYQ_QBSPD_ZBService" ref="TBL_HBGYTDSYQ_QBSPD_ZBService" />  
+  </object>
+
+  <object type="Kanq.WebApp.Controllers.WageDetailController, Kanq.WebApp" singleton="false" >
+    <property name="TBL_GZMXBService" ref="TBL_GZMXBService" />
+    <property name="TBL_GZMXB_LOGService" ref="TBL_GZMXB_LOGService" />
+  </object>
+
+  <object type="Kanq.WebApp.Controllers.AdjustWageDetailController, Kanq.WebApp" singleton="false" >
+    <property name="TBL_GZMXBService" ref="TBL_GZMXBService" />
+    <property name="TBL_GZMXB_LOGService" ref="TBL_GZMXB_LOGService" />
+    <property name="TBL_GZMXB_TJService" ref="TBL_GZMXB_TJService" />
+  </object>
+
+  <object type="Kanq.WebApp.Controllers.WageStatisticsController, Kanq.WebApp" singleton="false" >
+    <property name="TBL_GZMXBService" ref="TBL_GZMXBService" />
+    <property name="TBL_GZMXB_TJService" ref="TBL_GZMXB_TJService" />
+  </object>
+</objects>

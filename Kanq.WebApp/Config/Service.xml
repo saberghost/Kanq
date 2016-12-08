@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+  <object name="TBL_JSYDBP_BCGDDJK_ZB1Service" type="Kanq.BLL.TBL_JSYDBP_BCGDDJK_ZB1Service, Kanq.BLL" singleton="false" />
+  <object name="TBL_JSYDBP_BCGDDJK_ZB2Service" type="Kanq.BLL.TBL_JSYDBP_BCGDDJK_ZB2Service, Kanq.BLL" singleton="false" />
+  <object name="TBL_JSYDBP_BCGDDJK_DETAILService" type="Kanq.BLL.TBL_JSYDBP_BCGDDJK_DETAILService, Kanq.BLL" singleton="false" />
+  <object name="D_RECService" type="Kanq.BLL.D_RECService, Kanq.BLL" singleton="false" />
+  <object name="TBL_TDGY_HBJDSService" type="Kanq.BLL.TBL_TDGY_HBJDSService, Kanq.BLL" singleton="false" />
+  <object name="TBL_TDTJBG_HTJBXXService" type="Kanq.BLL.TBL_TDTJBG_HTJBXXService, Kanq.BLL" singleton="false" />
+  <object name="TBL_HBGYTDSYQ_QBSPD_ZBService" type="Kanq.BLL.TBL_HBGYTDSYQ_QBSPD_ZBService, Kanq.BLL" singleton="false" />
+  <object name="FwcqHzService" type="Kanq.BLL.FwcqHzService, Kanq.BLL" singleton="false" />
+  <object name="TBL_GZMXBService" type="Kanq.BLL.TBL_GZMXBService, Kanq.BLL" singleton="false" />
+  <object name="TBL_GZMXB_LOGService" type="Kanq.BLL.TBL_GZMXB_LOGService, Kanq.BLL" singleton="false" />
+  <object name="TBL_GZMXB_TJService" type="Kanq.BLL.TBL_GZMXB_TJService, Kanq.BLL" singleton="false" />
+</objects>

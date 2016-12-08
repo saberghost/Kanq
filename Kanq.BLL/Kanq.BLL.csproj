@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6DD469C0-C7FB-4FB8-B516-4E5114DC36AB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Kanq.BLL</RootNamespace>
+    <AssemblyName>Kanq.BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseService.cs" />
+    <Compile Include="BLL.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BLL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MyClass\D_RECService.cs" />
+    <Compile Include="MyClass\FwcqHzService.cs" />
+    <Compile Include="MyClass\TBL_GZMXBService.cs" />
+    <Compile Include="MyClass\TBL_GZMXB_LOGService.cs" />
+    <Compile Include="MyClass\TBL_HBGYTDSYQ_QBSPD_ZBService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Kanq.Common\Kanq.Common.csproj">
+      <Project>{E4791186-41EB-4C6B-92BD-F3B4D7C1B211}</Project>
+      <Name>Kanq.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kanq.DALFactory\Kanq.DALFactory.csproj">
+      <Project>{B7AD57D1-BDC2-4854-9221-6289E27FFE81}</Project>
+      <Name>Kanq.DALFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kanq.IBLL\Kanq.IBLL.csproj">
+      <Project>{73491a77-609e-4805-9f61-5cf2832200c5}</Project>
+      <Name>Kanq.IBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kanq.IDAL\Kanq.IDAL.csproj">
+      <Project>{95067368-D140-4595-ACE9-06E43E6B4C49}</Project>
+      <Name>Kanq.IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kanq.Model\Kanq.Model.csproj">
+      <Project>{46879d95-a486-40f3-861c-bff1c9dc5f3b}</Project>
+      <Name>Kanq.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BLL.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>BLL.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
