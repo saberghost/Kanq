@@ -186,9 +186,7 @@
     </Content>
     <Content Include="Global.asax" />
     <Content Include="packages.config" />
-    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Web.config" />
-    <Content Include="Views\BCGD\Index.cshtml" />
     <Content Include="ExcelTemplate\BCGDDJK.xlsx" />
     <Content Include="ExcelTemplate\tbl_gzmxb_tj.xlsx" />
     <Content Include="ExcelTemplate\ZBPH.xlsx" />
@@ -208,7 +206,6 @@
     <Compile Include="Controllers\AdjustWageDetailController.cs" />
     <Compile Include="Controllers\BCGDDJKController.cs" />
     <Compile Include="Controllers\FwcqBcHzbController.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\WageDetailController.cs" />
     <Compile Include="Controllers\WageStatisticsController.cs" />
     <Compile Include="Controllers\YGDBPXMController.cs" />
