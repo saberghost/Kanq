@@ -11,4 +11,5 @@
   <object name="TBL_GZMXBService" type="Kanq.BLL.TBL_GZMXBService, Kanq.BLL" singleton="false" />
   <object name="TBL_GZMXB_LOGService" type="Kanq.BLL.TBL_GZMXB_LOGService, Kanq.BLL" singleton="false" />
   <object name="TBL_GZMXB_TJService" type="Kanq.BLL.TBL_GZMXB_TJService, Kanq.BLL" singleton="false" />
+  <object name="TBL_TDFHDJ_BPPD_ZBService" type="Kanq.BLL.TBL_TDFHDJ_BPPD_ZBService, Kanq.BLL" singleton="false" />
 </objects>

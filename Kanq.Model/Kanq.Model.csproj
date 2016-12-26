@@ -78,6 +78,7 @@
     <Compile Include="TBL_JSYDBP_BCGDDJK_ZB2.cs" />
     <Compile Include="TBL_SJSLD.cs" />
     <Compile Include="TBL_TDFHDJ_BPPD.cs" />
+    <Compile Include="TBL_TDFHDJ_BPPD_ZB.cs" />
     <Compile Include="TBL_TDGY_HBJDS.cs" />
     <Compile Include="TBL_TDTJBG_HTJBXX.cs" />
     <Compile Include="ViewModel\FwcqHz.cs" />

@@ -18,7 +18,8 @@
     <property name="D_RECService" ref="D_RECService" />
     <property name="TBL_TDGY_HBJDSService" ref="TBL_TDGY_HBJDSService" />
     <property name="TBL_TDTJBG_HTJBXXService" ref="TBL_TDTJBG_HTJBXXService" />
-    <property name="TBL_HBGYTDSYQ_QBSPD_ZBService" ref="TBL_HBGYTDSYQ_QBSPD_ZBService" />  
+    <property name="TBL_HBGYTDSYQ_QBSPD_ZBService" ref="TBL_HBGYTDSYQ_QBSPD_ZBService" />
+    <property name="TBL_TDFHDJ_BPPD_ZBService" ref="TBL_TDFHDJ_BPPD_ZBService" />
   </object>
 
   <object type="Kanq.WebApp.Controllers.WageDetailController, Kanq.WebApp" singleton="false" >

@@ -21,6 +21,7 @@ namespace Kanq.DAL
     public partial class TBL_JSYDBP_BCGDDJK_ZB2Dal :BaseDal<TBL_JSYDBP_BCGDDJK_ZB2>, ITBL_JSYDBP_BCGDDJK_ZB2Dal{}
     public partial class TBL_SJSLDDal :BaseDal<TBL_SJSLD>, ITBL_SJSLDDal{}
     public partial class TBL_TDFHDJ_BPPDDal :BaseDal<TBL_TDFHDJ_BPPD>, ITBL_TDFHDJ_BPPDDal{}
+    public partial class TBL_TDFHDJ_BPPD_ZBDal :BaseDal<TBL_TDFHDJ_BPPD_ZB>, ITBL_TDFHDJ_BPPD_ZBDal{}
     public partial class TBL_TDGY_HBJDSDal :BaseDal<TBL_TDGY_HBJDS>, ITBL_TDGY_HBJDSDal{}
     public partial class TBL_TDTJBG_HTJBXXDal :BaseDal<TBL_TDTJBG_HTJBXX>, ITBL_TDTJBG_HTJBXXDal{}
 }

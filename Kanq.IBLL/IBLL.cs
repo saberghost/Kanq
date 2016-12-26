@@ -19,6 +19,7 @@ namespace Kanq.IBLL
     public partial interface ITBL_JSYDBP_BCGDDJK_ZB2Service:IBaseService<TBL_JSYDBP_BCGDDJK_ZB2>{}
     public partial interface ITBL_SJSLDService:IBaseService<TBL_SJSLD>{}
     public partial interface ITBL_TDFHDJ_BPPDService:IBaseService<TBL_TDFHDJ_BPPD>{}
+    public partial interface ITBL_TDFHDJ_BPPD_ZBService:IBaseService<TBL_TDFHDJ_BPPD_ZB>{}
     public partial interface ITBL_TDGY_HBJDSService:IBaseService<TBL_TDGY_HBJDS>{}
     public partial interface ITBL_TDTJBG_HTJBXXService:IBaseService<TBL_TDTJBG_HTJBXX>{}
 }

@@ -23,6 +23,7 @@ namespace Kanq.DALFactory
         public ITBL_JSYDBP_BCGDDJK_ZB2Dal TBL_JSYDBP_BCGDDJK_ZB2Dal { get; set; } = SpringNetHelper.GetObject<TBL_JSYDBP_BCGDDJK_ZB2Dal>("TBL_JSYDBP_BCGDDJK_ZB2Dal");
         public ITBL_SJSLDDal TBL_SJSLDDal { get; set; } = SpringNetHelper.GetObject<TBL_SJSLDDal>("TBL_SJSLDDal");
         public ITBL_TDFHDJ_BPPDDal TBL_TDFHDJ_BPPDDal { get; set; } = SpringNetHelper.GetObject<TBL_TDFHDJ_BPPDDal>("TBL_TDFHDJ_BPPDDal");
+        public ITBL_TDFHDJ_BPPD_ZBDal TBL_TDFHDJ_BPPD_ZBDal { get; set; } = SpringNetHelper.GetObject<TBL_TDFHDJ_BPPD_ZBDal>("TBL_TDFHDJ_BPPD_ZBDal");
         public ITBL_TDGY_HBJDSDal TBL_TDGY_HBJDSDal { get; set; } = SpringNetHelper.GetObject<TBL_TDGY_HBJDSDal>("TBL_TDGY_HBJDSDal");
         public ITBL_TDTJBG_HTJBXXDal TBL_TDTJBG_HTJBXXDal { get; set; } = SpringNetHelper.GetObject<TBL_TDTJBG_HTJBXXDal>("TBL_TDTJBG_HTJBXXDal");
     }

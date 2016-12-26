@@ -77,29 +77,6 @@ namespace Kanq.BLL
                               b.GWYPFRQ,
                               b.GWYPFBSMJ
                           }).ToList().FirstOrDefault();
-            //var Entity = LoadEntities(t => true).
-            //    Join(new TBL_TDFHDJ_BPPDService().LoadEntities(t => true), t1 => t1.SLID, t2 => t2.ID,
-            //    (t1, t2) => new
-            //    {
-            //        t1 = t1,
-            //        t2 = t2
-            //    }).
-            //    Join(new TBL_SJSLDService().LoadEntities(t => true), a1 => a1.t1.SJSLDID, a2 => a2.SJSLDID,
-            //    (a1, a2) => new
-            //    {
-            //        SLID = a1.t1.SLID,
-            //        SSXZ = a2.SSXZ,
-            //        XMMC = a1.t2.XMMC,
-            //        ZMJ = a1.t2.ZMJ,
-            //        XMLX = a1.t2.XMLX,
-            //        PZWH = a1.t2.PZWH,
-            //        PZRQ = a1.t2.PZRQ,
-            //        PZDW = a1.t2.PZDW,
-            //        GWYPFWH = a1.t2.GWYPFWH,
-            //        GWYPFRQ = a1.t2.GWYPFRQ,
-            //        GWYPFBSMJ = a1.t2.GWYPFBSMJ
-            //    }).
-            //    Where(t => t.SLID.Equals(slid)).FirstOrDefault();
             return Entity;
         }
 

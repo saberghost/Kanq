@@ -16,6 +16,7 @@ namespace Kanq.WebApp.Controllers
         public ITBL_TDGY_HBJDSService TBL_TDGY_HBJDSService { get; set; }
         public ITBL_TDTJBG_HTJBXXService TBL_TDTJBG_HTJBXXService { get; set; }
         public ITBL_HBGYTDSYQ_QBSPD_ZBService TBL_HBGYTDSYQ_QBSPD_ZBService { get; set; }
+        public ITBL_TDFHDJ_BPPD_ZBService TBL_TDFHDJ_BPPD_ZBService { get; set; }
 
         /// <summary>
         /// 加载已供地报批项目列表
@@ -101,6 +102,17 @@ namespace Kanq.WebApp.Controllers
         {
             var model = TBL_TDTJBG_HTJBXXService.LoadEntities(t => t.HTJBXXID.Equals(HTJBXXID)).FirstOrDefault();
             return Content(SerializeHelper.SerializeToString(model).Callback());
+        }
+
+        /// <summary>
+        /// 加载报批批单数据
+        /// </summary>
+        /// <param name="PFWH">批准文号</param>
+        /// <returns></returns>
+        public ActionResult loadBppdZpData(string PFWH)
+        {
+            var list = TBL_TDFHDJ_BPPD_ZBService.LoadEntities(t => t.PFWH.Equals(PFWH));
+            return Content(SerializeHelper.SerializeToString(list).Callback());
         }
     }
 }
