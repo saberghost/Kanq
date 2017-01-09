@@ -37,4 +37,12 @@
     <property name="TBL_GZMXBService" ref="TBL_GZMXBService" />
     <property name="TBL_GZMXB_TJService" ref="TBL_GZMXB_TJService" />
   </object>
+
+  <object type="Kanq.WebApp.Controllers.ZDCQ_ZFHBBTController, Kanq.WebApp" singleton="false" >
+    <property name="TBL_ZDCQ_ZFHBBTService" ref="TBL_ZDCQ_ZFHBBTService" />
+  </object>
+
+  <object type="Kanq.WebApp.Controllers.ZDCQ_HFZFHBBTController, Kanq.WebApp" singleton="false" >
+    <property name="TBL_ZDCQ_HFZFHBBTService" ref="TBL_ZDCQ_HFZFHBBTService" />
+  </object>
 </objects>

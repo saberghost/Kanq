@@ -51,6 +51,8 @@
     <Compile Include="MyClass\ITBL_GZMXBService.cs" />
     <Compile Include="MyClass\ITBL_GZMXB_LOGService.cs" />
     <Compile Include="MyClass\ITBL_HBGYTDSYQ_QBSPD_ZBService.cs" />
+    <Compile Include="MyClass\ITBL_ZDCQ_HFZFHBBTService.cs" />
+    <Compile Include="MyClass\ITBL_ZDCQ_ZFHBBTService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -190,6 +190,9 @@
     <Content Include="ExcelTemplate\BCGDDJK.xlsx" />
     <Content Include="ExcelTemplate\tbl_gzmxb_tj.xlsx" />
     <Content Include="ExcelTemplate\ZBPH.xlsx" />
+    <Content Include="WebForm1.aspx" />
+    <Content Include="ExcelTemplate\TBL_ZDCQ_ZFHBBT.xlsx" />
+    <Content Include="ExcelTemplate\TBL_ZDCQ_HFZFHBBT.xlsx" />
     <None Include="Properties\PublishProfiles\Kanq.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -199,7 +202,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -210,12 +215,21 @@
     <Compile Include="Controllers\WageStatisticsController.cs" />
     <Compile Include="Controllers\YGDBPXMController.cs" />
     <Compile Include="Controllers\ZBPHController.cs" />
+    <Compile Include="Controllers\ZDCQ_HFZFHBBTController.cs" />
+    <Compile Include="Controllers\ZDCQ_ZFHBBTController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\DicStorages.cs" />
     <Compile Include="Models\TBL_GZMXB_PARTIAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\AdjustWageDetail\" />
@@ -226,6 +240,8 @@
     <Folder Include="Views\WageStatistics\" />
     <Folder Include="Views\YGDBPXM\" />
     <Folder Include="Views\ZBPH\" />
+    <Folder Include="Views\ZDCQ_HFZFHBBT\" />
+    <Folder Include="Views\ZDCQ_ZFHBBT\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Kanq.BLL\Kanq.BLL.csproj">

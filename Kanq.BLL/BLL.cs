@@ -128,4 +128,20 @@ namespace Kanq.BLL
         }
     }
 
+    public partial class TBL_ZDCQ_HFZFHBBTService : BaseService<TBL_ZDCQ_HFZFHBBT>, ITBL_ZDCQ_HFZFHBBTService
+    {
+        public override void SetCurrentDal()
+        {
+            CurrentDal = CurrentDBSession.TBL_ZDCQ_HFZFHBBTDal;
+        }
+    }
+
+    public partial class TBL_ZDCQ_ZFHBBTService : BaseService<TBL_ZDCQ_ZFHBBT>, ITBL_ZDCQ_ZFHBBTService
+    {
+        public override void SetCurrentDal()
+        {
+            CurrentDal = CurrentDBSession.TBL_ZDCQ_ZFHBBTDal;
+        }
+    }
+
 }

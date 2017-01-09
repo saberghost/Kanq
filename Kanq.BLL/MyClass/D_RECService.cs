@@ -90,6 +90,9 @@ namespace Kanq.BLL
                        on a.HBJDSID equals b.HBJDSID
                        join c in CurrentDBSession.TBL_SJSLDDal.LoadEntities(t => true)
                        on a.SJSLDID equals c.SJSLDID
+                       join d in CurrentDBSession.OA2_FINSTDal.LoadEntities(t => true)
+                       on a.SLID equals d.FI_INST
+                       where d.FI_STATE == 1
                        select new
                        {
                            a.SLID,
@@ -134,6 +137,9 @@ namespace Kanq.BLL
                        on a.SLID equals b.HTJBXXID
                        join c in CurrentDBSession.TBL_SJSLDDal.LoadEntities(t => true)
                        on a.SJSLDID equals c.SJSLDID
+                       join d in CurrentDBSession.OA2_FINSTDal.LoadEntities(t => true)
+                       on a.SLID equals d.FI_INST
+                       where d.FI_STATE == 1
                        select new
                        {
                            a.SLID,

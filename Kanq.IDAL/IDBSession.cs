@@ -23,5 +23,7 @@ namespace Kanq.IDAL
         ITBL_TDFHDJ_BPPD_ZBDal TBL_TDFHDJ_BPPD_ZBDal { get; set; }
         ITBL_TDGY_HBJDSDal TBL_TDGY_HBJDSDal { get; set; }
         ITBL_TDTJBG_HTJBXXDal TBL_TDTJBG_HTJBXXDal { get; set; }
+        ITBL_ZDCQ_HFZFHBBTDal TBL_ZDCQ_HFZFHBBTDal { get; set; }
+        ITBL_ZDCQ_ZFHBBTDal TBL_ZDCQ_ZFHBBTDal { get; set; }
     }
 }

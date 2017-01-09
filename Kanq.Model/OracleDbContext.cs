@@ -27,6 +27,9 @@ namespace Kanq.Model
         public virtual DbSet<TBL_TDTJBG_HTJBXX> TBL_TDTJBG_HTJBXX { get; set; }
         public virtual DbSet<OA2_FINST> OA2_FINST { get; set; }
         public virtual DbSet<TBL_TDFHDJ_BPPD_ZB> TBL_TDFHDJ_BPPD_ZB { get; set; }
+        public virtual DbSet<TBL_ZDCQ_ZFHBBT> TBL_ZDCQ_ZFHBBT { get; set; }
+        public virtual DbSet<TBL_ZDCQ_HFZFHBBT> TBL_ZDCQ_HFZFHBBT { get; set; }
+
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

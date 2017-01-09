@@ -23,4 +23,6 @@ namespace Kanq.IDAL
     public partial interface ITBL_TDFHDJ_BPPD_ZBDal:IBaseDal<TBL_TDFHDJ_BPPD_ZB>{}
     public partial interface ITBL_TDGY_HBJDSDal:IBaseDal<TBL_TDGY_HBJDS>{}
     public partial interface ITBL_TDTJBG_HTJBXXDal:IBaseDal<TBL_TDTJBG_HTJBXX>{}
+    public partial interface ITBL_ZDCQ_HFZFHBBTDal:IBaseDal<TBL_ZDCQ_HFZFHBBT>{}
+    public partial interface ITBL_ZDCQ_ZFHBBTDal:IBaseDal<TBL_ZDCQ_ZFHBBT>{}
 }

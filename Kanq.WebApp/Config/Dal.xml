@@ -15,4 +15,6 @@
     <object name="TBL_TDFHDJ_BPPD_ZBDal" type="Kanq.DAL.TBL_TDFHDJ_BPPD_ZBDal, Kanq.DAL" singleton="false" />
     <object name="TBL_TDGY_HBJDSDal" type="Kanq.DAL.TBL_TDGY_HBJDSDal, Kanq.DAL" singleton="false" />
     <object name="TBL_TDTJBG_HTJBXXDal" type="Kanq.DAL.TBL_TDTJBG_HTJBXXDal, Kanq.DAL" singleton="false" />
+    <object name="TBL_ZDCQ_HFZFHBBTDal" type="Kanq.DAL.TBL_ZDCQ_HFZFHBBTDal, Kanq.DAL" singleton="false" />
+    <object name="TBL_ZDCQ_ZFHBBTDal" type="Kanq.DAL.TBL_ZDCQ_ZFHBBTDal, Kanq.DAL" singleton="false" />
 </objects>
