@@ -38,6 +38,10 @@ namespace Kanq.WebApp.Controllers
             return Content(SerializeHelper.SerializeToList(total, list).Callback());
         }
 
+        /// <summary>
+        /// 获取统计日期
+        /// </summary>
+        /// <returns></returns>
         public ActionResult GetSingleTjrq()
         {
             List<DateTime> timeList = TBL_GZMXB_TJService.LoadEntities(t => true).Select(t => t.TJRQ).Distinct().ToList();
